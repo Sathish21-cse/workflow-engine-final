@@ -2,6 +2,10 @@
 
 A dynamic workflow automation system supporting step-based execution, rule-driven branching, approvals, and notifications — with a full-featured single-page UI.
 
+## Demo
+
+[Watch the demo video](https://youtu.be/5X1fLYYtDXM)
+
 ---
 
 ## Quick Start
@@ -176,3 +180,5 @@ Database
 6. **Backend Data Unwrap** — Execute endpoint now correctly handles both `{"data":{...}}` and flat `{...}` body formats.
 7. **Null Safety** — `createWorkflow` and `updateWorkflow` handle null `isActive` and null/blank `inputSchema` gracefully.
 8. **Comparison Operators** — Fixed `<=` / `>=` vs `<` / `>` detection order to avoid false matches.
+
+
