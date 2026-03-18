@@ -73,7 +73,7 @@ function renderApp() {
     document.getElementById('root').innerHTML = `
         <div class="app-layout">
             <aside class="sidebar">
-                <div class="sidebar-logo"><div class="logo-title">WorkflowEngine</div><div class="logo-sub">Halleyx Platform</div></div>
+                <div class="sidebar-logo"><div class="logo-title">FlowOS</div><div class="logo-sub">Halleyx · Workflow Engine</div></div>
                 <nav class="sidebar-nav">
                     ${navItems.map(n => `<a class="nav-item" data-page="${n.page}" onclick="navigate('${n.page}')">${icon(n.ico)}<span>${n.label}</span></a>`).join('')}
                 </nav>
